@@ -1,70 +1,95 @@
-# Getting Started with Create React App
+# 할 일 목록 앱
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## 프로젝트 설명
 
-## Available Scripts
+### 📆 기간
 
-In the project directory, you can run:
+2023.01.16 ~ 2023.01.20<br/>
 
-### `npm start`
+<br>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### 💡 할 일 목록 앱을 만든 이유
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+```
+할 일 목록을 직관적으로 정리하기 위해서 리액트를 이용하여 spa개발을 해보았습니다.
+```
 
-### `npm test`
+<br>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### ⚙️ 사용 기술
+react-create-app, react-hooks, TailWindCss, Drag and Drop, React.memo, useCallback, useMemo
 
-### `npm run build`
+<br>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### 🎬 데이터베이스
+local Storage
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<br>
 
-### `npm run eject`
+### 🔎 기능 설명
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+<hr>
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+<br>
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### 1. 메인페이지
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+![메인페이지](https://user-images.githubusercontent.com/87574833/216801614-569cb7ca-2aa0-4dda-92ab-714a86f55b99.jpeg)
 
-## Learn More
+ - 메인 페이지를 직관적으로 누구나 쉽게 이용할 수 있게 만들었습니다.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+<br>
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### 2. 할 일 목록 추가
 
-### Code Splitting
+![입력](https://user-images.githubusercontent.com/87574833/216801693-ad6587ec-c0f9-4fc2-ac5f-ea18cc648341.jpeg)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+ - 할 일 목록을 입력하면 순서대로 목록이 나열 됩니다.
 
-### Analyzing the Bundle Size
+<br>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+### 3. 할 일 목록 편집
 
-### Making a Progressive Web App
+![에딧](https://user-images.githubusercontent.com/87574833/216801733-0983e986-c4b6-48ae-b71e-c83466f6f716.jpeg)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+ - edit을 누르면 할 일 목록을 편집 할 수 있습니다. 편집을 마치고 save를 누르면 할 일 목록이 저장 됩니다.
+ 
+ <br>
+ 
+![스크린샷 2023-02-05 오후 1 37 03](https://user-images.githubusercontent.com/87574833/216801845-6e8db098-1ee2-40d0-9fea-423aea771d68.jpeg)
 
-### Advanced Configuration
+ - 드래그앤드랍 기능을 구현하여 할 일 목록 간에 이동도 손쉽게 가능합니다.
+ 
+ <br>
+ 
+### 4. 할 일 목록 삭제
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+ - X를 누르면 해당 목록이 삭제 됩니다.
+ - Delete All을 누르면 전체 목록이 삭제가 됩니다.
 
-### Deployment
+ 
+ <br>
+ 
+ ### 4. 데이터베이스
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+![스크린샷 2023-02-05 오후 1 41 25](https://user-images.githubusercontent.com/87574833/216801968-e718ac4c-6970-4111-82e7-b06e1f26635a.jpeg)
 
-### `npm run build` fails to minify
+ - Local Storage에 할 일 목록들이 저장하여 앱을 종료 후 다시 실행해도 목록들이 저장되어 있도록 구현하였습니다.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<br>
+
+### 링크
+https://tlshoon.github.io/Todo_List_App/
+
+<br>
+
+ ### 🙁 아쉬웠던 점
+ -  시간 기능을 넣어서 할 일 목록을 구체적으로 구현하면 더 좋을 것 같다.
+ -  이미지와 css를 추가해 앱을 더 꾸미면 좋을 것 같다.
+
+<br>
+
+ ### 👍🏻 느낀점
+ - 
+
