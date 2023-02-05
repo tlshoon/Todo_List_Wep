@@ -35,7 +35,7 @@ local Storage
 
 ### 1. 메인페이지
 
-![메인페이지](https://user-images.githubusercontent.com/87574833/216801614-569cb7ca-2aa0-4dda-92ab-714a86f55b99.jpeg)
+![스크린샷 2023-02-05 오후 1 48 31](https://user-images.githubusercontent.com/87574833/216802191-16dc8e30-6942-4f14-ad0f-36a26192250f.jpeg)
 
  - 메인 페이지를 직관적으로 누구나 쉽게 이용할 수 있게 만들었습니다.
 
@@ -43,7 +43,7 @@ local Storage
 
 ### 2. 할 일 목록 추가
 
-![입력](https://user-images.githubusercontent.com/87574833/216801693-ad6587ec-c0f9-4fc2-ac5f-ea18cc648341.jpeg)
+![스크린샷 2023-02-05 오후 1 48 48](https://user-images.githubusercontent.com/87574833/216802195-f5b0c968-5273-4039-b92a-5990b29bfc9d.jpeg)
 
  - 할 일 목록을 입력하면 순서대로 목록이 나열 됩니다.
 
@@ -51,7 +51,7 @@ local Storage
 
 ### 3. 할 일 목록 편집
 
-![에딧](https://user-images.githubusercontent.com/87574833/216801733-0983e986-c4b6-48ae-b71e-c83466f6f716.jpeg)
+![스크린샷 2023-02-05 오후 1 48 57](https://user-images.githubusercontent.com/87574833/216802199-a5fab166-05fb-4714-a4b9-1f7cf8a6cf3f.jpeg)
 
  - edit을 누르면 할 일 목록을 편집 할 수 있습니다. 편집을 마치고 save를 누르면 할 일 목록이 저장 됩니다.
  
