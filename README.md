@@ -57,7 +57,7 @@ local Storage
  
  <br>
  
-![스크린샷 2023-02-05 오후 1 37 03](https://user-images.githubusercontent.com/87574833/216801845-6e8db098-1ee2-40d0-9fea-423aea771d68.jpeg)
+![화면-기록-2023-02-20-오후-2 27 02-_online-video-cutter com_](https://user-images.githubusercontent.com/87574833/220017093-4fbff68c-2b94-4fea-8313-4ff8d093d7b5.gif)
 
  - 드래그앤드랍 기능을 구현하여 할 일 목록 간에 이동도 손쉽게 가능합니다.
  
